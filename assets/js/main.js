@@ -76,7 +76,7 @@ let interval = 100;
 
 function updateCounter() {
   current++;
-  document.getElementById("counter").textContent = '+ '+ current + ' De proyectos';
+  document.getElementById("counter").textContent = '+ '+ current + ' proyectos';
 
   if (current < limit) {
     interval += 10;
