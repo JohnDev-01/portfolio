@@ -650,6 +650,10 @@ button {
   --hue-1: 138;
   --hue-2: 120;
 }
+.skills__container .container .card__aws {
+  --hue-1: 57;
+  --hue-2: 69;
+}
 .skills__container .container .card__firebase {
   --hue-1: 48;
   --hue-2: 35;
