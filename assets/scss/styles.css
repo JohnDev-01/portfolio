@@ -634,6 +634,22 @@ button {
   --hue-1: 600;
   --hue-2: 200;
 }
+.skills__container .container .card__dotnet {
+  --hue-1: 250;
+  --hue-2: 270;
+}
+.skills__container .container .card__angular {
+  --hue-1: 0;
+  --hue-2: 360;
+}
+.skills__container .container .card__xamarin {
+  --hue-1: 224;
+  --hue-2: 205;
+}
+.skills__container .container .card__supabase {
+  --hue-1: 138;
+  --hue-2: 120;
+}
 .skills__container .container .card__scale-1 {
   width: 148px;
   height: 148px;
