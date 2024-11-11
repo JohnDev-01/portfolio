@@ -86,3 +86,12 @@ function updateCounter() {
 
 // Inicia el contador
 updateCounter();
+
+
+// =========SEND EMAIL===============
+function copiarCorreo() {
+  const correo = document.getElementById("correoInput").value;
+  navigator.clipboard.writeText(correo)
+      .then(() => alert("Correo copiado al portapapeles"))
+      .catch(err => console.error("Error al copiar:", err));
+}

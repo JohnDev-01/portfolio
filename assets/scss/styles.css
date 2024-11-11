@@ -650,6 +650,10 @@ button {
   --hue-1: 138;
   --hue-2: 120;
 }
+.skills__container .container .card__firebase {
+  --hue-1: 48;
+  --hue-2: 35;
+}
 .skills__container .container .card__scale-1 {
   width: 148px;
   height: 148px;
@@ -927,7 +931,13 @@ button {
   text-align: center;
   margin-bottom: var(--mb-1-5);
 }
-
+.infoproyectos {
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+  color: rgb(195, 135, 25);
+  margin-top: 50px;
+  font-size: 10px;
+}
 .newsletter__form {
   background: var(--container-color);
   padding: 1rem;
