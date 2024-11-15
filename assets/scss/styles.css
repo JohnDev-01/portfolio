@@ -144,9 +144,16 @@ button {
 .bd-grid {
   max-width: 1024px;
   display: grid;
+  margin: 0 auto;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
+.bd {
+  max-width: 300px;
+  margin: 0 auto; /* Centrado horizontal */
+  display: block; /* Asegura que el contenedor sea un bloque visible */
+}
+
 
 .l-header {
   width: 100%;
@@ -744,6 +751,8 @@ button {
 .work__container {
   row-gap: 2rem;
   cursor: pointer;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente si es necesario */
 }
 .work__container .container {
   position: relative;
@@ -802,7 +811,7 @@ button {
 .work__container .container .card:hover::before {
   -webkit-clip-path: circle(300px at 80% -20%);
   clip-path: circle(300px at 80% -20%);
-  background: #5bfb4f;
+  background: rgb(79, 79, 215);
   filter: blur(20px);
 }
 .work__container .container .card:after {
