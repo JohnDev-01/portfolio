@@ -144,7 +144,7 @@ button {
 .bd-grid {
   max-width: 1024px;
   display: grid;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
@@ -751,8 +751,6 @@ button {
 .work__container {
   row-gap: 2rem;
   cursor: pointer;
-  justify-content: center; /* Centra el contenido horizontalmente */
-  align-items: center; /* Centra el contenido verticalmente si es necesario */
 }
 .work__container .container {
   position: relative;
