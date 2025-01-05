@@ -70,7 +70,7 @@ sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(".skills__data, .work__img, .contact__input", { interval: 200 });
 
 // Contador
-let limit = 25; 
+let limit = 30; 
 let current = 0; 
 let interval = 100; 
 
